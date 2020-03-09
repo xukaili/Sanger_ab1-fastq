@@ -6,8 +6,10 @@ __`ab1-fastq.pl`__ is from __`CandiHap`__: https://github.com/xukaili/CandiHap</
 __`perl 5`__, __`R ≥ 3.2`__ (with sangerseqR). </br>
 
 install __`sangerseqR`__ packages in R:</br>
+```
 if (! requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager")</br>
 if (! require("sangerseqR")) BiocManager::install("sangerseqR")</br></br>
+```
 
 ## Getting started
 Put __`sanger_CandiHap.sh`__, __`Gene_VCF2haplotypes.pl`__, __`ab1-fastq.pl`__ and all __`sanger_teat_data`__ files in a same dir, then run:</br>
