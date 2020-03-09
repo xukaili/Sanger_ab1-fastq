@@ -10,7 +10,6 @@ install __`sangerseqR`__ packages in R:</br>
 if (! requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager")
 if (! require("sangerseqR")) BiocManager::install("sangerseqR")
 ```
-</br>
 
 ## Getting started
 Put __`sanger_CandiHap.sh`__, __`Gene_VCF2haplotypes.pl`__, __`ab1-fastq.pl`__ and all __`sanger_teat_data`__ files in a same dir, then run:</br>
