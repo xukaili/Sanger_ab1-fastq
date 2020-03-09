@@ -15,5 +15,5 @@ if (! require("sangerseqR")) BiocManager::install("sangerseqR")
 Put __`sanger_CandiHap.sh`__, __`Gene_VCF2haplotypes.pl`__, __`ab1-fastq.pl`__ and all __`sanger_teat_data`__ files in a same dir, then run:</br>
 ```
      perl  ab1-fastq.pl  Sanger.ab1
-e.g. perl  ab1-fastq.pl  example.ab1
+e.g. perl  ab1-fastq.pl  example_F.ab1
 ```
