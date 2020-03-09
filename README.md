@@ -3,11 +3,11 @@ __`ab1-fastq.pl`__ for reading ABI Sanger sequencing trace files, and simulating
 
 ## Dependencies
 __`ab1-fastq.pl`__ is from __`CandiHap`__: https://github.com/xukaili/CandiHap</br>
-__`perl 5`__, __`R ≥ 3.2`__ (with sangerseqR). </br></br>
+__`perl 5`__, __`R ≥ 3.2`__ (with sangerseqR). </br>
 
 install packages in R:</br>
 if (! requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager")</br>
-if (! require("sangerseqR")) BiocManager::install("sangerseqR")</br>
+if (! require("sangerseqR")) BiocManager::install("sangerseqR")</br></br>
 
 ## Getting started
 Put __`sanger_CandiHap.sh`__, __`Gene_VCF2haplotypes.pl`__, __`ab1-fastq.pl`__ and all __`sanger_teat_data`__ files in a same dir, then run:</br>
