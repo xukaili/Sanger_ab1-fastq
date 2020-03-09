@@ -5,7 +5,7 @@ __`ab1-fastq.pl`__ for reading ABI Sanger sequencing trace files, and simulating
 __`ab1-fastq.pl`__ is from __`CandiHap`__: https://github.com/xukaili/CandiHap</br>
 __`perl 5`__, __`R ≥ 3.2`__ (with sangerseqR). </br>
 
-install packages in R:</br>
+install __`sangerseqR`__ packages in R:</br>
 if (! requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager")</br>
 if (! require("sangerseqR")) BiocManager::install("sangerseqR")</br></br>
 
