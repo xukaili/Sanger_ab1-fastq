@@ -1,5 +1,5 @@
 # Sanger_ab1-fastq
-__`ab1-fastq.pl`__ for reading ABI Sanger sequencing trace files, and simulating the primarySeq and secondarySeq to fastq reads by extracting 90 bp blocks from Sanger sequence and shifting 1-bp in turns. As an example, a 200 bp Sanger sequence would obtain 110 fastq reads within the length of 90 bp.</br></br>
+__`ab1-fastq.pl`__ for reading ABI Sanger sequencing trace file, and simulating the primarySeq and secondarySeq to fastq reads by extracting 90 bp blocks from Sanger sequence and shifting 1-bp in turns. As an example, a 200 bp Sanger sequence would obtain 110 fastq reads within the length of 90 bp.</br></br>
 
 ## Dependencies
 __`ab1-fastq.pl`__ is from __`CandiHap`__: https://github.com/xukaili/CandiHap</br>
